@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+input{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+		border-radius: 5px;
+}
+
+label{
+    font-size: 18px;
+}
+
+select{
+    width: 102%;
+    padding: 8px;
+    font-size: 18px;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* registerAcc CSS */
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 35%;
+}
+
+@media only screen and (max-width: 576px) {
+  .form{
+    width: 75%;
+  }
+}
+
+#binusian-info{
+    display: none;
+}
+
+/* loginAcc CSS */
+
+#empty-pass, #invalid-email, #invalid-name, #invalid-wa, #invalid-line, #invalid-pass, #invalid-nim, #invalid-major{
+    font-size: 14px;
+    color: red;
+}
+
+#invalid{
+    font-size: 14px;
+    color:red;
+    display: none;
+}
